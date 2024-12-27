@@ -1,0 +1,15 @@
+  .swiper-button-prev{
+    top: 30%; 
+    color: gray;
+    left: 2.5%;
+  }
+
+  .swiper-button-next{
+    top: 30%; 
+    color: gray;
+    right: 2.5%;
+  }
+
+  .swiper-pagination{
+    display: none;
+  }

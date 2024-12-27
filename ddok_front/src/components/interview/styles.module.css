@@ -1,0 +1,74 @@
+.recordbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    position : relative;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .recordbodycontainer {
+    text-align: center;
+  }
+
+.btn_area button{
+    width: 200px;
+    height:50px;
+    background: #59B95F;
+    color:#fff;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.recordbtn{
+    background-color: #FFA500 !important;
+}
+
+.btn_area > div:first-child {
+    margin-left: 0px;
+}
+  
+.btn_area > div:not(:first-child) {
+    margin-left: 20px;
+}
+  
+  
+
+.btn_area > div{
+    display: inline-block;
+}
+
+.script{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70vw;
+    height: 40vh;
+    background-color: #8C8C8C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    position: relative;
+}
+
+.progress{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+.finishprogress{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #FCC517;
+}
+
+.finishbutton{
+    background-color: #FFA500 !important;
+}
